@@ -1,0 +1,54 @@
+[   {
+        "icon": "video",
+        "slug": "introduccion",
+        "title": "1. Introduccion.",
+        "breadcrumb": ["inicio","Introducción"],
+        "path": "pages/1-0-introduccion.html"        
+    },
+    {
+      "icon": "document",
+      "slug": "generalidades-covid19",
+      "title": "2. Generalidades sobre el COVID-19.",
+      "breadcrumb": [
+        "inicio",
+        "Generalidades sobre el COVID-19"
+      ],
+      "path": "pages/2-0-generalidades-covid19.html"
+    },    
+    {
+        "icon": "document",
+        "slug": "bioseguridad-servicios-funerarios",
+        "title": "3. Bioseguridad para sector de servicios funerarios COVID-19.",
+        "breadcrumb": ["inicio", "Bioseguridad para sector de servicios funerarios"],
+        "path": "pages/3-0-bioseguridad-servicios-funerarios.html"      
+    },    
+    {
+      "icon": "video",
+      "slug": "manejo-cadaver-casa",
+      "title": "4. Manejo del cadáver confirmado y sospechoso por COVID–19 en casa.",
+      "breadcrumb": [
+        "inicio",
+        "Manejo del cadáver en casa"
+      ],
+      "path": "pages/4-0-manejo-cadaver-casa.html"
+    },{
+      "icon": "video",
+      "slug": "medidas-generales",
+      "title": "5. Medidas generales para el manejo de cadáveres con causa de muerte probable o confirmada por el virus COVID-19.",
+      "breadcrumb": [
+        "inicio",
+        "Medidas generales para el manejo de cadáveres"
+      ],
+      "path": "pages/5-0-medidas-generales.html"
+    },{
+      "icon": "document",
+      "slug": "limpieza-desinfeccion-esterilizacion",
+      "title": "6. Limpieza, desinfección y esterilización sector Servicios Funerarios.",
+      "breadcrumb": [
+        "inicio",
+        "Limpieza, desinfección y esterilización sector Servicios Funerarios"
+      ],
+      "path": "pages/6-0-limpieza-desinfeccion-esterilizacion.html"
+    }   
+    
+]
