@@ -38,11 +38,20 @@ section {
     &__abstract {
       padding-right: 3.5rem;
       h1 {
-        color: white;
+        color: $white;
         font-weight: 600;
+        font-size: 2.5rem;
       }   
-      h2, h3, p {
-        color: white;
+      p {
+        color: $white;
+        font-weight: normal;
+      }
+      h3 {
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $white;
       }
     }
   }
@@ -104,10 +113,48 @@ section {
   padding-bottom: 2rem;
 }
 
+
+
+.card__goal {
+  margin-bottom: 1.5rem ; 
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  border-left: 12px solid $background-color-dark;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.25);
+  &__number {
+    position: relative; 
+    top: 0.3rem;
+    img {
+      width: 35px;    
+      margin-right: 1rem;
+    }
+  }
+  &__description {
+    margin: 0;
+    padding: 0; 
+    span {
+      font-family: $base-font-family;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 0;
+    }
+    p {
+      margin: 0;   
+    }
+  }
+}
+
 footer {
   padding: 3rem 0 1rem 0;
   background-color: $background-color-gray;
-  border-bottom: 25px solid $background-color-dark;
+  //border-bottom: 25px solid $background-color-dark;
 }
 
 .footer__header {

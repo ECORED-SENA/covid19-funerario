@@ -1,25 +1,32 @@
-[   {
+[   
+    {
+      "icon": "fa fa-1x fa-home",
+      "slug": "external",
+      "title": "Volver al inicio",
+      "path": "../"
+    },  
+    {
         "icon": "video",
         "slug": "introduccion",
-        "title": "1. Introduccion.",
-        "breadcrumb": ["inicio","Introducción"],
+        "title": "1. Introducción.",
+        "breadcrumb": ["Inicio","Introducción"],
         "path": "pages/1-0-introduccion.html"        
     },
     {
-      "icon": "document",
+      "icon": "video",
       "slug": "generalidades-covid19",
       "title": "2. Generalidades sobre el COVID-19.",
       "breadcrumb": [
-        "inicio",
+        "Inicio",
         "Generalidades sobre el COVID-19"
       ],
       "path": "pages/2-0-generalidades-covid19.html"
     },    
     {
-        "icon": "document",
+        "icon": "video",
         "slug": "bioseguridad-servicios-funerarios",
         "title": "3. Bioseguridad para sector de servicios funerarios COVID-19.",
-        "breadcrumb": ["inicio", "Bioseguridad para sector de servicios funerarios"],
+        "breadcrumb": ["Inicio", "Bioseguridad para sector de servicios funerarios"],
         "path": "pages/3-0-bioseguridad-servicios-funerarios.html"      
     },    
     {
@@ -27,7 +34,7 @@
       "slug": "manejo-cadaver-casa",
       "title": "4. Manejo del cadáver confirmado y sospechoso por COVID–19 en casa.",
       "breadcrumb": [
-        "inicio",
+        "Inicio",
         "Manejo del cadáver en casa"
       ],
       "path": "pages/4-0-manejo-cadaver-casa.html"
@@ -36,7 +43,7 @@
       "slug": "medidas-generales",
       "title": "5. Medidas generales para el manejo de cadáveres con causa de muerte probable o confirmada por el virus COVID-19.",
       "breadcrumb": [
-        "inicio",
+        "Inicio",
         "Medidas generales para el manejo de cadáveres"
       ],
       "path": "pages/5-0-medidas-generales.html"
@@ -45,7 +52,7 @@
       "slug": "limpieza-desinfeccion-esterilizacion",
       "title": "6. Limpieza, desinfección y esterilización sector Servicios Funerarios.",
       "breadcrumb": [
-        "inicio",
+        "Inicio",
         "Limpieza, desinfección y esterilización sector Servicios Funerarios"
       ],
       "path": "pages/6-0-limpieza-desinfeccion-esterilizacion.html"
