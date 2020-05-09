@@ -203,6 +203,15 @@ $(function () {
         // Options will go here
     });
 
+    $('.fancybox').fancybox({
+        smallBtn: false,
+        toolbar: true,
+        buttons: [
+            'fullScreen',
+            'close'
+        ]
+    });
+    
     $(".nav-tema-item__titulo").hover(function () {
         $(this).closest('.nav-tema-item__icon').addClass('bg-color-base');
         alert('ntramos')
